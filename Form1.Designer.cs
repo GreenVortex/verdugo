@@ -108,6 +108,7 @@
             this.Launcher18.TabIndex = 15;
             this.Launcher18.TabStop = false;
             this.Launcher18.Click += new System.EventHandler(this.Launcher18_Click);
+            this.Launcher18.DoubleClick += new System.EventHandler(this.Launcher18_DoubleClick);
             // 
             // Launcher17
             // 
@@ -118,6 +119,7 @@
             this.Launcher17.TabIndex = 14;
             this.Launcher17.TabStop = false;
             this.Launcher17.Click += new System.EventHandler(this.Launcher17_Click);
+            this.Launcher17.DoubleClick += new System.EventHandler(this.Launcher17_DoubleClick);
             // 
             // Launcher16
             // 
@@ -128,6 +130,7 @@
             this.Launcher16.TabIndex = 13;
             this.Launcher16.TabStop = false;
             this.Launcher16.Click += new System.EventHandler(this.Launcher16_Click);
+            this.Launcher16.DoubleClick += new System.EventHandler(this.Launcher16_DoubleClick);
             // 
             // Launcher14
             // 
@@ -138,6 +141,7 @@
             this.Launcher14.TabIndex = 12;
             this.Launcher14.TabStop = false;
             this.Launcher14.Click += new System.EventHandler(this.Launcher14_Click);
+            this.Launcher14.DoubleClick += new System.EventHandler(this.Launcher14_DoubleClick);
             // 
             // Launcher13
             // 
@@ -148,6 +152,7 @@
             this.Launcher13.TabIndex = 10;
             this.Launcher13.TabStop = false;
             this.Launcher13.Click += new System.EventHandler(this.Launcher13_Click);
+            this.Launcher13.DoubleClick += new System.EventHandler(this.Launcher13_DoubleClick);
             // 
             // Launcher15
             // 
@@ -158,6 +163,7 @@
             this.Launcher15.TabIndex = 11;
             this.Launcher15.TabStop = false;
             this.Launcher15.Click += new System.EventHandler(this.Launcher15_Click);
+            this.Launcher15.DoubleClick += new System.EventHandler(this.Launcher15_DoubleClick);
             // 
             // Launcher12
             // 
@@ -168,6 +174,7 @@
             this.Launcher12.TabIndex = 9;
             this.Launcher12.TabStop = false;
             this.Launcher12.Click += new System.EventHandler(this.Launcher12_Click);
+            this.Launcher12.DoubleClick += new System.EventHandler(this.Launcher12_DoubleClick);
             // 
             // Launcher11
             // 
@@ -178,6 +185,7 @@
             this.Launcher11.TabIndex = 8;
             this.Launcher11.TabStop = false;
             this.Launcher11.Click += new System.EventHandler(this.Launcher11_Click);
+            this.Launcher11.DoubleClick += new System.EventHandler(this.Launcher11_DoubleClick);
             // 
             // Launcher10
             // 
@@ -188,6 +196,7 @@
             this.Launcher10.TabIndex = 7;
             this.Launcher10.TabStop = false;
             this.Launcher10.Click += new System.EventHandler(this.Launcher10_Click);
+            this.Launcher10.DoubleClick += new System.EventHandler(this.Launcher10_DoubleClick);
             // 
             // Launcher08
             // 
@@ -198,6 +207,7 @@
             this.Launcher08.TabIndex = 6;
             this.Launcher08.TabStop = false;
             this.Launcher08.Click += new System.EventHandler(this.Launcher08_Click);
+            this.Launcher08.DoubleClick += new System.EventHandler(this.Launcher08_DoubleClick);
             // 
             // Launcher07
             // 
@@ -208,6 +218,7 @@
             this.Launcher07.TabIndex = 5;
             this.Launcher07.TabStop = false;
             this.Launcher07.Click += new System.EventHandler(this.Launcher07_Click);
+            this.Launcher07.DoubleClick += new System.EventHandler(this.Launcher07_DoubleClick);
             // 
             // Launcher09
             // 
@@ -218,6 +229,7 @@
             this.Launcher09.TabIndex = 5;
             this.Launcher09.TabStop = false;
             this.Launcher09.Click += new System.EventHandler(this.Launcher09_Click);
+            this.Launcher09.DoubleClick += new System.EventHandler(this.Launcher09_DoubleClick);
             // 
             // Launcher01
             // 
@@ -228,6 +240,7 @@
             this.Launcher01.TabIndex = 4;
             this.Launcher01.TabStop = false;
             this.Launcher01.Click += new System.EventHandler(this.Launcher01_Click);
+            this.Launcher01.DoubleClick += new System.EventHandler(this.Launcher01_DoubleClick);
             // 
             // Launcher05
             // 
@@ -238,6 +251,7 @@
             this.Launcher05.TabIndex = 3;
             this.Launcher05.TabStop = false;
             this.Launcher05.Click += new System.EventHandler(this.Launcher05_Click);
+            this.Launcher05.DoubleClick += new System.EventHandler(this.Launcher05_DoubleClick);
             // 
             // Launcher06
             // 
@@ -248,6 +262,7 @@
             this.Launcher06.TabIndex = 3;
             this.Launcher06.TabStop = false;
             this.Launcher06.Click += new System.EventHandler(this.Launcher06_Click);
+            this.Launcher06.DoubleClick += new System.EventHandler(this.Launcher06_DoubleClick);
             // 
             // Launcher04
             // 
@@ -258,6 +273,7 @@
             this.Launcher04.TabIndex = 2;
             this.Launcher04.TabStop = false;
             this.Launcher04.Click += new System.EventHandler(this.Launcher04_Click);
+            this.Launcher04.DoubleClick += new System.EventHandler(this.Launcher04_DoubleClick);
             // 
             // Launcher03
             // 
@@ -268,6 +284,7 @@
             this.Launcher03.TabIndex = 1;
             this.Launcher03.TabStop = false;
             this.Launcher03.Click += new System.EventHandler(this.Launcher03_Click);
+            this.Launcher03.DoubleClick += new System.EventHandler(this.Launcher03_DoubleClick);
             // 
             // Launcher02
             // 
@@ -278,6 +295,7 @@
             this.Launcher02.TabIndex = 0;
             this.Launcher02.TabStop = false;
             this.Launcher02.Click += new System.EventHandler(this.Launcher02_Click);
+            this.Launcher02.DoubleClick += new System.EventHandler(this.Launcher02_DoubleClick);
             // 
             // BtnTerminate
             // 
@@ -327,7 +345,7 @@
             this.ApplySettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ApplySettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ApplySettings.ForeColor = System.Drawing.Color.White;
-            this.ApplySettings.Location = new System.Drawing.Point(308, 306);
+            this.ApplySettings.Location = new System.Drawing.Point(308, 305);
             this.ApplySettings.Name = "ApplySettings";
             this.ApplySettings.Size = new System.Drawing.Size(75, 25);
             this.ApplySettings.TabIndex = 2;

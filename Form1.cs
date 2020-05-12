@@ -29,13 +29,25 @@ namespace Verdugo
         {
             RocketLauncher("notepad","Launcher 1");
         }
+        private void Launcher01_DoubleClick(object sender, EventArgs e)
+        {
+            
+        }
         //L2
         private void Launcher02_Click(object sender, EventArgs e)
         {
             
         }
+        private void Launcher02_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L3
         private void Launcher03_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Launcher03_DoubleClick(object sender, EventArgs e)
         {
 
         }
@@ -44,75 +56,135 @@ namespace Verdugo
         {
             
         }
+        private void Launcher04_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L5
         private void Launcher05_Click(object sender, EventArgs e)
         {
             
+        }
+        private void Launcher05_DoubleClick(object sender, EventArgs e)
+        {
+
         }
         //L6
         private void Launcher06_Click(object sender, EventArgs e)
         {
             
         }
+        private void Launcher06_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L7
         private void Launcher07_Click(object sender, EventArgs e)
         {
             
+        }
+        private void Launcher07_DoubleClick(object sender, EventArgs e)
+        {
+
         }
         //L8
         private void Launcher08_Click(object sender, EventArgs e)
         {
             
         }
+        private void Launcher08_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L9
         private void Launcher09_Click(object sender, EventArgs e)
         {
             
+        }
+        private void Launcher09_DoubleClick(object sender, EventArgs e)
+        {
+
         }
         //L10
         private void Launcher10_Click(object sender, EventArgs e)
         {
             
         }
+        private void Launcher10_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L11
         private void Launcher11_Click(object sender, EventArgs e)
         {
             
+        }
+        private void Launcher11_DoubleClick(object sender, EventArgs e)
+        {
+
         }
         //L12
         private void Launcher12_Click(object sender, EventArgs e)
         {
             
         }
+        private void Launcher12_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L13
         private void Launcher13_Click(object sender, EventArgs e)
         {
             
+        }
+        private void Launcher13_DoubleClick(object sender, EventArgs e)
+        {
+
         }
         //L14
         private void Launcher14_Click(object sender, EventArgs e)
         {
             
         }
+        private void Launcher14_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L15
         private void Launcher15_Click(object sender, EventArgs e)
         {
             
+        }
+        private void Launcher15_DoubleClick(object sender, EventArgs e)
+        {
+
         }
         //L16
         private void Launcher16_Click(object sender, EventArgs e)
         {
             
         }
+        private void Launcher16_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L17
         private void Launcher17_Click(object sender, EventArgs e)
         {
             
         }
+        private void Launcher17_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
         //L18
         private void Launcher18_Click(object sender, EventArgs e)
         {
             
+        }
+        private void Launcher18_DoubleClick(object sender, EventArgs e)
+        {
+
         }
 
         //TestingUnits
