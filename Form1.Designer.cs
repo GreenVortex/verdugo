@@ -49,6 +49,8 @@
             this.Launcher02 = new System.Windows.Forms.PictureBox();
             this.BtnTerminate = new System.Windows.Forms.PictureBox();
             this.LauncherSelector = new System.Windows.Forms.ComboBox();
+            this.ApplySettings = new System.Windows.Forms.Button();
+            this.Pathtxt = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Launcher18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Launcher17)).BeginInit();
@@ -281,7 +283,7 @@
             // 
             this.BtnTerminate.BackColor = System.Drawing.Color.Red;
             this.BtnTerminate.Location = new System.Drawing.Point(566, -2);
-            this.BtnTerminate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnTerminate.Margin = new System.Windows.Forms.Padding(2);
             this.BtnTerminate.Name = "BtnTerminate";
             this.BtnTerminate.Size = new System.Drawing.Size(19, 20);
             this.BtnTerminate.TabIndex = 1;
@@ -290,8 +292,8 @@
             // 
             // LauncherSelector
             // 
-            this.LauncherSelector.BackColor = System.Drawing.Color.LightGray;
-            this.LauncherSelector.ForeColor = System.Drawing.Color.Gray;
+            this.LauncherSelector.BackColor = System.Drawing.Color.Gray;
+            this.LauncherSelector.ForeColor = System.Drawing.Color.White;
             this.LauncherSelector.FormattingEnabled = true;
             this.LauncherSelector.Items.AddRange(new object[] {
             "Launcher 01",
@@ -312,10 +314,34 @@
             "Launcher 16",
             "Launcher 17",
             "Launcher 18"});
-            this.LauncherSelector.Location = new System.Drawing.Point(12, 306);
+            this.LauncherSelector.Location = new System.Drawing.Point(10, 305);
             this.LauncherSelector.Name = "LauncherSelector";
-            this.LauncherSelector.Size = new System.Drawing.Size(136, 21);
-            this.LauncherSelector.TabIndex = 2;
+            this.LauncherSelector.Size = new System.Drawing.Size(161, 21);
+            this.LauncherSelector.Sorted = true;
+            this.LauncherSelector.TabIndex = 1;
+            this.LauncherSelector.TabStop = false;
+            // 
+            // ApplySettings
+            // 
+            this.ApplySettings.BackColor = System.Drawing.Color.Gray;
+            this.ApplySettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ApplySettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApplySettings.ForeColor = System.Drawing.Color.White;
+            this.ApplySettings.Location = new System.Drawing.Point(308, 306);
+            this.ApplySettings.Name = "ApplySettings";
+            this.ApplySettings.Size = new System.Drawing.Size(75, 25);
+            this.ApplySettings.TabIndex = 2;
+            this.ApplySettings.Text = "Apply";
+            this.ApplySettings.UseVisualStyleBackColor = false;
+            // 
+            // Pathtxt
+            // 
+            this.Pathtxt.BackColor = System.Drawing.Color.Gray;
+            this.Pathtxt.ForeColor = System.Drawing.Color.White;
+            this.Pathtxt.Location = new System.Drawing.Point(177, 305);
+            this.Pathtxt.Name = "Pathtxt";
+            this.Pathtxt.Size = new System.Drawing.Size(125, 20);
+            this.Pathtxt.TabIndex = 3;
             // 
             // Main
             // 
@@ -323,6 +349,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(585, 338);
+            this.Controls.Add(this.Pathtxt);
+            this.Controls.Add(this.ApplySettings);
             this.Controls.Add(this.LauncherSelector);
             this.Controls.Add(this.BtnTerminate);
             this.Controls.Add(this.panel1);
@@ -352,6 +380,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Launcher02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnTerminate)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -378,6 +407,8 @@
         private System.Windows.Forms.PictureBox Launcher02;
         private System.Windows.Forms.PictureBox BtnTerminate;
         private System.Windows.Forms.ComboBox LauncherSelector;
+        private System.Windows.Forms.Button ApplySettings;
+        private System.Windows.Forms.TextBox Pathtxt;
     }
 }
 
