@@ -29,6 +29,10 @@ namespace Verdugo
         {
             RocketLauncher(Properties.Settings.Default.Launcher1Path,"Launcher 1");
         }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
         //L2
         private void Launcher02_Click(object sender, EventArgs e)
         {
@@ -149,8 +153,8 @@ namespace Verdugo
                 Console.WriteLine("Unknown Error at " + LaunchID);
             }
         }
-        //Setting Window Loader
-        static void SettingLoader()
+        //Loading settings
+        private void SettingBtn_Click(object sender, EventArgs e)
         {
             settings SettingsForm = new settings();
             SettingsForm.Show();
