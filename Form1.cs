@@ -216,8 +216,8 @@ namespace Verdugo
 
             catch (System.InvalidOperationException)
             {
+                Console.WriteLine("Attempt to launch without setting the exec @" + LaunchID);
                 MessageBox.Show("It appears you don't have anything set for that launcher config it in the settings!", "Tell me what to do!");
-                Console.WriteLine("Unknown Error at " + LaunchID);
             }
 
             catch
