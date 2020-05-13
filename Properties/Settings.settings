@@ -3,58 +3,58 @@
   <Profiles />
   <Settings>
     <Setting Name="Launcher1Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher2Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher3Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher4Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher5Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher6Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher7Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher8Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher9Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher10Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher11Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher12Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher13Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher14Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher15Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher16Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher17Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Launcher18Path" Type="System.String" Scope="User">
-      <Value Profile="(Default)">notepad</Value>
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

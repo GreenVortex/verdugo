@@ -28,5 +28,10 @@ namespace Verdugo
 
         //Taskbar buttons
         private void BtnTerminate_Click(object sender, EventArgs e){this.Close();}
+
+        private void ApplySettings_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

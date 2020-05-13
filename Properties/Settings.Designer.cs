@@ -25,7 +25,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher1Path {
             get {
                 return ((string)(this["Launcher1Path"]));
@@ -37,7 +37,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher2Path {
             get {
                 return ((string)(this["Launcher2Path"]));
@@ -49,7 +49,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher3Path {
             get {
                 return ((string)(this["Launcher3Path"]));
@@ -61,7 +61,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher4Path {
             get {
                 return ((string)(this["Launcher4Path"]));
@@ -73,7 +73,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher5Path {
             get {
                 return ((string)(this["Launcher5Path"]));
@@ -85,7 +85,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher6Path {
             get {
                 return ((string)(this["Launcher6Path"]));
@@ -97,7 +97,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher7Path {
             get {
                 return ((string)(this["Launcher7Path"]));
@@ -109,7 +109,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher8Path {
             get {
                 return ((string)(this["Launcher8Path"]));
@@ -121,7 +121,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher9Path {
             get {
                 return ((string)(this["Launcher9Path"]));
@@ -133,7 +133,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher10Path {
             get {
                 return ((string)(this["Launcher10Path"]));
@@ -145,7 +145,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher11Path {
             get {
                 return ((string)(this["Launcher11Path"]));
@@ -157,7 +157,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher12Path {
             get {
                 return ((string)(this["Launcher12Path"]));
@@ -169,7 +169,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher13Path {
             get {
                 return ((string)(this["Launcher13Path"]));
@@ -181,7 +181,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher14Path {
             get {
                 return ((string)(this["Launcher14Path"]));
@@ -193,7 +193,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher15Path {
             get {
                 return ((string)(this["Launcher15Path"]));
@@ -205,7 +205,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher16Path {
             get {
                 return ((string)(this["Launcher16Path"]));
@@ -217,7 +217,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher17Path {
             get {
                 return ((string)(this["Launcher17Path"]));
@@ -229,7 +229,7 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Launcher18Path {
             get {
                 return ((string)(this["Launcher18Path"]));
