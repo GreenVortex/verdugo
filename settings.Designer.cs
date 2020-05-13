@@ -81,6 +81,7 @@
             this.LauncherSelect.Name = "LauncherSelect";
             this.LauncherSelect.Size = new System.Drawing.Size(201, 21);
             this.LauncherSelect.TabIndex = 3;
+            this.LauncherSelect.TabStop = false;
             // 
             // panel1
             // 
@@ -105,6 +106,7 @@
             this.ApplySettings.Name = "ApplySettings";
             this.ApplySettings.Size = new System.Drawing.Size(131, 24);
             this.ApplySettings.TabIndex = 8;
+            this.ApplySettings.TabStop = false;
             this.ApplySettings.Text = "Apply";
             this.ApplySettings.UseVisualStyleBackColor = false;
             this.ApplySettings.Click += new System.EventHandler(this.ApplySettings_Click);
@@ -141,6 +143,7 @@
             this.FindPathBtn.Name = "FindPathBtn";
             this.FindPathBtn.Size = new System.Drawing.Size(44, 24);
             this.FindPathBtn.TabIndex = 5;
+            this.FindPathBtn.TabStop = false;
             this.FindPathBtn.Text = "Find";
             this.FindPathBtn.UseVisualStyleBackColor = false;
             // 
@@ -152,6 +155,7 @@
             this.ExecPath.Name = "ExecPath";
             this.ExecPath.Size = new System.Drawing.Size(201, 20);
             this.ExecPath.TabIndex = 4;
+            this.ExecPath.TabStop = false;
             // 
             // openFileDialog1
             // 

@@ -19,3 +19,4 @@ C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.csproj.CoreCompileInputs
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.exe
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.pdb
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.settings.resources
+C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.ConfigSetMessage.resources

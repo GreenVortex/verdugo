@@ -238,5 +238,17 @@ namespace Verdugo.Properties {
                 this["Launcher18Path"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool SetLauncherSuccess {
+            get {
+                return ((bool)(this["SetLauncherSuccess"]));
+            }
+            set {
+                this["SetLauncherSuccess"] = value;
+            }
+        }
     }
 }
