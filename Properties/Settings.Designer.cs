@@ -8,22 +8,234 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Verdugo.Properties
-{
-
-
+namespace Verdugo.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.5.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher1Path {
+            get {
+                return ((string)(this["Launcher1Path"]));
+            }
+            set {
+                this["Launcher1Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher2Path {
+            get {
+                return ((string)(this["Launcher2Path"]));
+            }
+            set {
+                this["Launcher2Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher3Path {
+            get {
+                return ((string)(this["Launcher3Path"]));
+            }
+            set {
+                this["Launcher3Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher4Path {
+            get {
+                return ((string)(this["Launcher4Path"]));
+            }
+            set {
+                this["Launcher4Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher5Path {
+            get {
+                return ((string)(this["Launcher5Path"]));
+            }
+            set {
+                this["Launcher5Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher6Path {
+            get {
+                return ((string)(this["Launcher6Path"]));
+            }
+            set {
+                this["Launcher6Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher7Path {
+            get {
+                return ((string)(this["Launcher7Path"]));
+            }
+            set {
+                this["Launcher7Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher8Path {
+            get {
+                return ((string)(this["Launcher8Path"]));
+            }
+            set {
+                this["Launcher8Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher9Path {
+            get {
+                return ((string)(this["Launcher9Path"]));
+            }
+            set {
+                this["Launcher9Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher10Path {
+            get {
+                return ((string)(this["Launcher10Path"]));
+            }
+            set {
+                this["Launcher10Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher11Path {
+            get {
+                return ((string)(this["Launcher11Path"]));
+            }
+            set {
+                this["Launcher11Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher12Path {
+            get {
+                return ((string)(this["Launcher12Path"]));
+            }
+            set {
+                this["Launcher12Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher13Path {
+            get {
+                return ((string)(this["Launcher13Path"]));
+            }
+            set {
+                this["Launcher13Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher14Path {
+            get {
+                return ((string)(this["Launcher14Path"]));
+            }
+            set {
+                this["Launcher14Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher15Path {
+            get {
+                return ((string)(this["Launcher15Path"]));
+            }
+            set {
+                this["Launcher15Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher16Path {
+            get {
+                return ((string)(this["Launcher16Path"]));
+            }
+            set {
+                this["Launcher16Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher17Path {
+            get {
+                return ((string)(this["Launcher17Path"]));
+            }
+            set {
+                this["Launcher17Path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("notepad")]
+        public string Launcher18Path {
+            get {
+                return ((string)(this["Launcher18Path"]));
+            }
+            set {
+                this["Launcher18Path"] = value;
             }
         }
     }

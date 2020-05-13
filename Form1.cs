@@ -27,164 +27,92 @@ namespace Verdugo
         //L1
         private void Launcher01_Click(object sender, EventArgs e)
         {
-            RocketLauncher("notepad","Launcher 1");
-        }
-        private void Launcher01_DoubleClick(object sender, EventArgs e)
-        {
-            
+            RocketLauncher(Properties.Settings.Default.Launcher1Path,"Launcher 1");
         }
         //L2
         private void Launcher02_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher02_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher2Path, "Launcher 2");
         }
         //L3
         private void Launcher03_Click(object sender, EventArgs e)
         {
-
-        }
-        private void Launcher03_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher3Path, "Launcher 3");
         }
         //L4
         private void Launcher04_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher04_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher4Path, "Launcher 4");
         }
         //L5
         private void Launcher05_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher05_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher5Path, "Launcher 5");
         }
         //L6
         private void Launcher06_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher06_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher6Path, "Launcher 6");
         }
         //L7
         private void Launcher07_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher07_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher7Path, "Launcher 7");
         }
         //L8
         private void Launcher08_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher08_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher8Path, "Launcher 8");
         }
         //L9
         private void Launcher09_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher09_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher9Path, "Launcher 9");
         }
         //L10
         private void Launcher10_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher10_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher10Path, "Launcher 10");
         }
         //L11
         private void Launcher11_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher11_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher11Path, "Launcher 11");
         }
         //L12
         private void Launcher12_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher12_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher12Path, "Launcher 12");
         }
         //L13
         private void Launcher13_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher13_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher13Path, "Launcher 13");
         }
         //L14
         private void Launcher14_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher14_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher14Path, "Launcher 14");
         }
         //L15
         private void Launcher15_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher15_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher15Path, "Launcher 15");
         }
         //L16
         private void Launcher16_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher16_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher16Path, "Launcher 16");
         }
         //L17
         private void Launcher17_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher17_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher17Path, "Launcher 17");
         }
         //L18
         private void Launcher18_Click(object sender, EventArgs e)
         {
-            
-        }
-        private void Launcher18_DoubleClick(object sender, EventArgs e)
-        {
-
+            RocketLauncher(Properties.Settings.Default.Launcher18Path, "Launcher 18");
         }
 
         //TestingUnits
@@ -220,7 +148,12 @@ namespace Verdugo
                 MessageBox.Show("You've somehow managed to break the software in ways we have not thought to be possible", "WOW!");
                 Console.WriteLine("Unknown Error at " + LaunchID);
             }
-
+        }
+        //Setting Window Loader
+        static void SettingLoader()
+        {
+            settings SettingsForm = new settings();
+            SettingsForm.Show();
         }
     }
 }
