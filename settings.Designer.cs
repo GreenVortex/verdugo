@@ -31,11 +31,11 @@
             this.BtnTerminate = new System.Windows.Forms.PictureBox();
             this.LauncherSelect = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.FindPathBtn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.ApplySettings = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.FindPathBtn = new System.Windows.Forms.Button();
+            this.ExecPath = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.BtnTerminate)).BeginInit();
             this.panel1.SuspendLayout();
@@ -89,21 +89,47 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.FindPathBtn);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.ExecPath);
             this.panel1.Controls.Add(this.LauncherSelect);
             this.panel1.Location = new System.Drawing.Point(12, 25);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(207, 159);
             this.panel1.TabIndex = 4;
             // 
-            // textBox1
+            // ApplySettings
             // 
-            this.textBox1.BackColor = System.Drawing.Color.DimGray;
-            this.textBox1.ForeColor = System.Drawing.Color.LightGray;
-            this.textBox1.Location = new System.Drawing.Point(3, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(201, 20);
-            this.textBox1.TabIndex = 4;
+            this.ApplySettings.BackColor = System.Drawing.Color.DimGray;
+            this.ApplySettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ApplySettings.ForeColor = System.Drawing.Color.LightGray;
+            this.ApplySettings.Location = new System.Drawing.Point(35, 118);
+            this.ApplySettings.Name = "ApplySettings";
+            this.ApplySettings.Size = new System.Drawing.Size(131, 24);
+            this.ApplySettings.TabIndex = 8;
+            this.ApplySettings.Text = "Apply";
+            this.ApplySettings.UseVisualStyleBackColor = false;
+            this.ApplySettings.Click += new System.EventHandler(this.ApplySettings_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.LightGray;
+            this.label2.Location = new System.Drawing.Point(51, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(88, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Executable  Path";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.LightGray;
+            this.label1.Location = new System.Drawing.Point(71, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Launcher";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FindPathBtn
             // 
@@ -118,40 +144,14 @@
             this.FindPathBtn.Text = "Find";
             this.FindPathBtn.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // ExecPath
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(71, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Launcher";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.LightGray;
-            this.label2.Location = new System.Drawing.Point(51, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Executable  Path";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ApplySettings
-            // 
-            this.ApplySettings.BackColor = System.Drawing.Color.DimGray;
-            this.ApplySettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ApplySettings.ForeColor = System.Drawing.Color.LightGray;
-            this.ApplySettings.Location = new System.Drawing.Point(35, 118);
-            this.ApplySettings.Name = "ApplySettings";
-            this.ApplySettings.Size = new System.Drawing.Size(131, 24);
-            this.ApplySettings.TabIndex = 8;
-            this.ApplySettings.Text = "Apply";
-            this.ApplySettings.UseVisualStyleBackColor = false;
-            this.ApplySettings.Click += new System.EventHandler(this.ApplySettings_Click);
+            this.ExecPath.BackColor = System.Drawing.Color.DimGray;
+            this.ExecPath.ForeColor = System.Drawing.Color.LightGray;
+            this.ExecPath.Location = new System.Drawing.Point(3, 53);
+            this.ExecPath.Name = "ExecPath";
+            this.ExecPath.Size = new System.Drawing.Size(201, 20);
+            this.ExecPath.TabIndex = 4;
             // 
             // openFileDialog1
             // 
@@ -187,7 +187,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button FindPathBtn;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox ExecPath;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

@@ -214,6 +214,12 @@ namespace Verdugo
                 Console.WriteLine("Incorrect path at " + LaunchID);
             }
 
+            catch (System.InvalidOperationException)
+            {
+                MessageBox.Show("It appears you don't have anything set for that launcher config it in the settings!", "Tell me what to do!");
+                Console.WriteLine("Unknown Error at " + LaunchID);
+            }
+
             catch
             {
                 MessageBox.Show("You've somehow managed to break the software in ways we have not thought to be possible", "WOW!");
