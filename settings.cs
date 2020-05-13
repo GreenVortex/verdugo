@@ -16,5 +16,10 @@ namespace Verdugo
         {
             InitializeComponent();
         }
+
+        private void BtnTerminate_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

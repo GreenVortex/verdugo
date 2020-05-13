@@ -160,6 +160,7 @@
             this.Launcher18Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher18Pic.TabIndex = 33;
             this.Launcher18Pic.TabStop = false;
+            this.Launcher18Pic.Click += new System.EventHandler(this.Launcher18Pic_Click);
             // 
             // Launcher17Pic
             // 
@@ -169,6 +170,7 @@
             this.Launcher17Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher17Pic.TabIndex = 32;
             this.Launcher17Pic.TabStop = false;
+            this.Launcher17Pic.Click += new System.EventHandler(this.Launcher17Pic_Click);
             // 
             // Launcher16Pic
             // 
@@ -178,6 +180,7 @@
             this.Launcher16Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher16Pic.TabIndex = 31;
             this.Launcher16Pic.TabStop = false;
+            this.Launcher16Pic.Click += new System.EventHandler(this.Launcher16Pic_Click);
             // 
             // Launcher15Pic
             // 
@@ -187,6 +190,7 @@
             this.Launcher15Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher15Pic.TabIndex = 30;
             this.Launcher15Pic.TabStop = false;
+            this.Launcher15Pic.Click += new System.EventHandler(this.Launcher15Pic_Click);
             // 
             // Launcher14Pic
             // 
@@ -196,6 +200,7 @@
             this.Launcher14Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher14Pic.TabIndex = 29;
             this.Launcher14Pic.TabStop = false;
+            this.Launcher14Pic.Click += new System.EventHandler(this.Launcher14Pic_Click);
             // 
             // Launcher13Pic
             // 
@@ -205,6 +210,7 @@
             this.Launcher13Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher13Pic.TabIndex = 28;
             this.Launcher13Pic.TabStop = false;
+            this.Launcher13Pic.Click += new System.EventHandler(this.Launcher13Pic_Click);
             // 
             // Launcher12Pic
             // 
@@ -214,6 +220,7 @@
             this.Launcher12Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher12Pic.TabIndex = 27;
             this.Launcher12Pic.TabStop = false;
+            this.Launcher12Pic.Click += new System.EventHandler(this.Launcher12Pic_Click);
             // 
             // Launcher11Pic
             // 
@@ -223,6 +230,7 @@
             this.Launcher11Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher11Pic.TabIndex = 26;
             this.Launcher11Pic.TabStop = false;
+            this.Launcher11Pic.Click += new System.EventHandler(this.Launcher11Pic_Click);
             // 
             // Launcher10Pic
             // 
@@ -232,6 +240,7 @@
             this.Launcher10Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher10Pic.TabIndex = 25;
             this.Launcher10Pic.TabStop = false;
+            this.Launcher10Pic.Click += new System.EventHandler(this.Launcher10Pic_Click);
             // 
             // Launcher9Pic
             // 
@@ -241,6 +250,7 @@
             this.Launcher9Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher9Pic.TabIndex = 24;
             this.Launcher9Pic.TabStop = false;
+            this.Launcher9Pic.Click += new System.EventHandler(this.Launcher9Pic_Click);
             // 
             // Launcher8Pic
             // 
@@ -250,6 +260,7 @@
             this.Launcher8Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher8Pic.TabIndex = 23;
             this.Launcher8Pic.TabStop = false;
+            this.Launcher8Pic.Click += new System.EventHandler(this.Launcher8Pic_Click);
             // 
             // Launcher7Pic
             // 
@@ -259,6 +270,7 @@
             this.Launcher7Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher7Pic.TabIndex = 22;
             this.Launcher7Pic.TabStop = false;
+            this.Launcher7Pic.Click += new System.EventHandler(this.Launcher7Pic_Click);
             // 
             // Launcher6Pic
             // 
@@ -268,6 +280,7 @@
             this.Launcher6Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher6Pic.TabIndex = 21;
             this.Launcher6Pic.TabStop = false;
+            this.Launcher6Pic.Click += new System.EventHandler(this.Launcher6Pic_Click);
             // 
             // Launcher5Pic
             // 
@@ -277,6 +290,7 @@
             this.Launcher5Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher5Pic.TabIndex = 20;
             this.Launcher5Pic.TabStop = false;
+            this.Launcher5Pic.Click += new System.EventHandler(this.Launcher5Pic_Click);
             // 
             // Launcher4Pic
             // 
@@ -286,6 +300,7 @@
             this.Launcher4Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher4Pic.TabIndex = 19;
             this.Launcher4Pic.TabStop = false;
+            this.Launcher4Pic.Click += new System.EventHandler(this.Launcher4Pic_Click);
             // 
             // Launcher3Pic
             // 
@@ -295,6 +310,7 @@
             this.Launcher3Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher3Pic.TabIndex = 18;
             this.Launcher3Pic.TabStop = false;
+            this.Launcher3Pic.Click += new System.EventHandler(this.Launcher3Pic_Click);
             // 
             // Launcher2Pic
             // 
@@ -304,6 +320,7 @@
             this.Launcher2Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher2Pic.TabIndex = 17;
             this.Launcher2Pic.TabStop = false;
+            this.Launcher2Pic.Click += new System.EventHandler(this.Launcher2Pic_Click);
             // 
             // Launcher1Pic
             // 
@@ -313,7 +330,7 @@
             this.Launcher1Pic.Size = new System.Drawing.Size(70, 15);
             this.Launcher1Pic.TabIndex = 16;
             this.Launcher1Pic.TabStop = false;
-            this.Launcher1Pic.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.Launcher1Pic.Click += new System.EventHandler(this.Launcher1Pic_Click);
             // 
             // Launcher18
             // 
