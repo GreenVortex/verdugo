@@ -16,7 +16,12 @@ namespace Verdugo
         {
             InitializeComponent();
         }
-
+        //Feedback dialogue caller
+        static void Feedback()
+        {
+            FeedBack Feedback = new FeedBack();
+            Feedback.Show();
+        }
         //Border
         Point lastPoint;
         private void Main_MouseMove(object sender, MouseEventArgs e){if (e.Button == MouseButtons.Left){this.Left += e.X - lastPoint.X; this.Top += e.Y - lastPoint.Y;}}

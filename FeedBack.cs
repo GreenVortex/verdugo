@@ -25,21 +25,7 @@ namespace Verdugo
 
         private void ConfigSetMessage_Load(object sender, EventArgs e)
         {
-            /*
-            if (Properties.Settings.Default.SetLauncherSuccess == true)
-            {
-                DescriptionText.Text = "Settings applied successfully";
-                OkayButton.Text = "Perfect";
-            }
-
-            else
-            {
-                DescriptionText.Text = "Unfortunately the settings were not applied";
-                OkayButton.Text = "oh";
-            }
-            */
-
-            switch (Properties.Settings.Default.FeedbackCode)
+           switch (Properties.Settings.Default.FeedbackCode)
             {
                 case "ConfigSuccess":
                     DescriptionText.Text = "Settings applied successfully";
