@@ -100,6 +100,7 @@
             // ApplySettings
             // 
             this.ApplySettings.BackColor = System.Drawing.Color.DimGray;
+            this.ApplySettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ApplySettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ApplySettings.ForeColor = System.Drawing.Color.LightGray;
             this.ApplySettings.Location = new System.Drawing.Point(35, 118);
@@ -117,9 +118,9 @@
             this.label2.ForeColor = System.Drawing.Color.LightGray;
             this.label2.Location = new System.Drawing.Point(51, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 13);
+            this.label2.Size = new System.Drawing.Size(85, 13);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Executable  Path";
+            this.label2.Text = "Executable Path";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1

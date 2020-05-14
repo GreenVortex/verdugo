@@ -241,13 +241,13 @@ namespace Verdugo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool SetLauncherSuccess {
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FeedbackCode {
             get {
-                return ((bool)(this["SetLauncherSuccess"]));
+                return ((string)(this["FeedbackCode"]));
             }
             set {
-                this["SetLauncherSuccess"] = value;
+                this["FeedbackCode"] = value;
             }
         }
     }

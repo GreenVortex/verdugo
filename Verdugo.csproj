@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfigSetMessage.cs">
+    <Compile Include="FeedBack.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConfigSetMessage.Designer.cs">
-      <DependentUpon>ConfigSetMessage.cs</DependentUpon>
+    <Compile Include="FeedBack.Designer.cs">
+      <DependentUpon>FeedBack.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -66,8 +66,8 @@
     <Compile Include="settings.Designer.cs">
       <DependentUpon>settings.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ConfigSetMessage.resx">
-      <DependentUpon>ConfigSetMessage.cs</DependentUpon>
+    <EmbeddedResource Include="FeedBack.resx">
+      <DependentUpon>FeedBack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

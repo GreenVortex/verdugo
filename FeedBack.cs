@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Verdugo
 {
-    public partial class ConfigSetMessage : Form
+    public partial class FeedBack : Form
     {
-        public ConfigSetMessage()
+        public FeedBack()
         {
             InitializeComponent();
         }
@@ -24,6 +25,7 @@ namespace Verdugo
 
         private void ConfigSetMessage_Load(object sender, EventArgs e)
         {
+            /*
             if (Properties.Settings.Default.SetLauncherSuccess == true)
             {
                 DescriptionText.Text = "Settings applied successfully";
@@ -34,6 +36,27 @@ namespace Verdugo
             {
                 DescriptionText.Text = "Unfortunately the settings were not applied";
                 OkayButton.Text = "oh";
+            }
+            */
+
+            switch (Properties.Settings.Default.FeedbackCode)
+            {
+                case "ConfigSuccess":
+                    DescriptionText.Text = "Settings applied successfully";
+                    OkayButton.Text = "Perfect";
+                    break;
+                case "ConfigFail":
+                    DescriptionText.Text = "Unfortunately the settings were not applied";
+                    OkayButton.Text = "oh";
+                    break;
+                case "EmptyExec":
+                    DescriptionText.Text = "Please enter text into the Executable path field";
+                    OkayButton.Text = "oh";
+                    break;
+                default:
+                    DescriptionText.Text = "Unknown Feedback";
+                    OkayButton.Text = "Zoinks";
+                    break;
             }
         }
 

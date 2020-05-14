@@ -1,6 +1,6 @@
 ﻿namespace Verdugo
 {
-    partial class ConfigSetMessage
+    partial class FeedBack
     {
         /// <summary>
         /// Required designer variable.
