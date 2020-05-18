@@ -203,9 +203,10 @@ namespace Verdugo
         {
             Application.Exit();
         }
-        //Launcher 
+        //Launcher code execution
         static void RocketLauncher(string LaunchParam, string LaunchID)
         {
+            //Launching parameters
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
             proc.EnableRaisingEvents = false;
             proc.StartInfo.FileName = LaunchParam;
@@ -213,18 +214,19 @@ namespace Verdugo
             {
                 proc.Start();
             }
-            catch (System.ComponentModel.Win32Exception)
+            //Error handler for incorrect file path in ececuter parameters
+            catch (System.ComponentModel.Win32Exception) 
             {
                 MessageBox.Show("Error:Incorect path was attempted to execute, please correct path to file at " + LaunchID, "LaunchError");
                 Console.WriteLine("Incorrect path at " + LaunchID);
             }
-
+            //Error handler for launching with empty parameters
             catch (System.InvalidOperationException)
             {
                 Console.WriteLine("Attempt to launch without setting the exec @" + LaunchID);
                 MessageBox.Show("It appears you don't have anything set for that launcher config it in the settings!", "Tell me what to do!");
             }
-
+            //Error handler for unknown error
             catch
             {
                 MessageBox.Show("You've somehow managed to break the software in ways we have not thought to be possible", "WOW!");
