@@ -250,5 +250,221 @@ namespace Verdugo.Properties {
                 this["FeedbackCode"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher1Pic {
+            get {
+                return ((string)(this["Launcher1Pic"]));
+            }
+            set {
+                this["Launcher1Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher2Pic {
+            get {
+                return ((string)(this["Launcher2Pic"]));
+            }
+            set {
+                this["Launcher2Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher3Pic {
+            get {
+                return ((string)(this["Launcher3Pic"]));
+            }
+            set {
+                this["Launcher3Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher4Pic {
+            get {
+                return ((string)(this["Launcher4Pic"]));
+            }
+            set {
+                this["Launcher4Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher5Pic {
+            get {
+                return ((string)(this["Launcher5Pic"]));
+            }
+            set {
+                this["Launcher5Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher6Pic {
+            get {
+                return ((string)(this["Launcher6Pic"]));
+            }
+            set {
+                this["Launcher6Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher7Pic {
+            get {
+                return ((string)(this["Launcher7Pic"]));
+            }
+            set {
+                this["Launcher7Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher8Pic {
+            get {
+                return ((string)(this["Launcher8Pic"]));
+            }
+            set {
+                this["Launcher8Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher9Pic {
+            get {
+                return ((string)(this["Launcher9Pic"]));
+            }
+            set {
+                this["Launcher9Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher10Pic {
+            get {
+                return ((string)(this["Launcher10Pic"]));
+            }
+            set {
+                this["Launcher10Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher11Pic {
+            get {
+                return ((string)(this["Launcher11Pic"]));
+            }
+            set {
+                this["Launcher11Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher12Pic {
+            get {
+                return ((string)(this["Launcher12Pic"]));
+            }
+            set {
+                this["Launcher12Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher13Pic {
+            get {
+                return ((string)(this["Launcher13Pic"]));
+            }
+            set {
+                this["Launcher13Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher14Pic {
+            get {
+                return ((string)(this["Launcher14Pic"]));
+            }
+            set {
+                this["Launcher14Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher15Pic {
+            get {
+                return ((string)(this["Launcher15Pic"]));
+            }
+            set {
+                this["Launcher15Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher16Pic {
+            get {
+                return ((string)(this["Launcher16Pic"]));
+            }
+            set {
+                this["Launcher16Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher17Pic {
+            get {
+                return ((string)(this["Launcher17Pic"]));
+            }
+            set {
+                this["Launcher17Pic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Launcher18Pic {
+            get {
+                return ((string)(this["Launcher18Pic"]));
+            }
+            set {
+                this["Launcher18Pic"] = value;
+            }
+        }
     }
 }

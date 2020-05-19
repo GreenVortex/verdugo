@@ -67,6 +67,7 @@
             this.Launcher02 = new System.Windows.Forms.PictureBox();
             this.BtnTerminate = new System.Windows.Forms.PictureBox();
             this.SettingBtn = new System.Windows.Forms.PictureBox();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Launcher18Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Launcher17Pic)).BeginInit();
@@ -335,6 +336,7 @@
             // Launcher18
             // 
             this.Launcher18.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher18.Location = new System.Drawing.Point(476, 186);
             this.Launcher18.Name = "Launcher18";
             this.Launcher18.Size = new System.Drawing.Size(70, 70);
@@ -345,6 +347,7 @@
             // Launcher17
             // 
             this.Launcher17.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher17.Location = new System.Drawing.Point(386, 186);
             this.Launcher17.Name = "Launcher17";
             this.Launcher17.Size = new System.Drawing.Size(70, 70);
@@ -355,6 +358,7 @@
             // Launcher16
             // 
             this.Launcher16.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher16.Location = new System.Drawing.Point(293, 186);
             this.Launcher16.Name = "Launcher16";
             this.Launcher16.Size = new System.Drawing.Size(70, 70);
@@ -365,6 +369,7 @@
             // Launcher14
             // 
             this.Launcher14.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher14.Location = new System.Drawing.Point(107, 186);
             this.Launcher14.Name = "Launcher14";
             this.Launcher14.Size = new System.Drawing.Size(70, 70);
@@ -375,6 +380,7 @@
             // Launcher13
             // 
             this.Launcher13.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher13.Location = new System.Drawing.Point(13, 186);
             this.Launcher13.Name = "Launcher13";
             this.Launcher13.Size = new System.Drawing.Size(70, 70);
@@ -385,6 +391,7 @@
             // Launcher15
             // 
             this.Launcher15.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher15.Location = new System.Drawing.Point(200, 186);
             this.Launcher15.Name = "Launcher15";
             this.Launcher15.Size = new System.Drawing.Size(70, 70);
@@ -395,6 +402,7 @@
             // Launcher12
             // 
             this.Launcher12.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher12.Location = new System.Drawing.Point(476, 100);
             this.Launcher12.Name = "Launcher12";
             this.Launcher12.Size = new System.Drawing.Size(70, 70);
@@ -405,6 +413,7 @@
             // Launcher11
             // 
             this.Launcher11.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher11.Location = new System.Drawing.Point(386, 100);
             this.Launcher11.Name = "Launcher11";
             this.Launcher11.Size = new System.Drawing.Size(70, 70);
@@ -415,6 +424,7 @@
             // Launcher10
             // 
             this.Launcher10.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher10.Location = new System.Drawing.Point(293, 100);
             this.Launcher10.Name = "Launcher10";
             this.Launcher10.Size = new System.Drawing.Size(70, 70);
@@ -425,6 +435,7 @@
             // Launcher08
             // 
             this.Launcher08.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher08.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher08.Location = new System.Drawing.Point(107, 100);
             this.Launcher08.Name = "Launcher08";
             this.Launcher08.Size = new System.Drawing.Size(70, 70);
@@ -435,6 +446,7 @@
             // Launcher07
             // 
             this.Launcher07.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher07.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher07.Location = new System.Drawing.Point(13, 100);
             this.Launcher07.Name = "Launcher07";
             this.Launcher07.Size = new System.Drawing.Size(70, 70);
@@ -445,6 +457,7 @@
             // Launcher09
             // 
             this.Launcher09.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher09.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher09.Location = new System.Drawing.Point(200, 100);
             this.Launcher09.Name = "Launcher09";
             this.Launcher09.Size = new System.Drawing.Size(70, 70);
@@ -455,6 +468,7 @@
             // Launcher01
             // 
             this.Launcher01.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher01.Location = new System.Drawing.Point(13, 12);
             this.Launcher01.Name = "Launcher01";
             this.Launcher01.Size = new System.Drawing.Size(70, 70);
@@ -465,6 +479,7 @@
             // Launcher05
             // 
             this.Launcher05.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher05.Location = new System.Drawing.Point(386, 12);
             this.Launcher05.Name = "Launcher05";
             this.Launcher05.Size = new System.Drawing.Size(70, 70);
@@ -475,6 +490,7 @@
             // Launcher06
             // 
             this.Launcher06.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher06.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher06.Location = new System.Drawing.Point(476, 12);
             this.Launcher06.Name = "Launcher06";
             this.Launcher06.Size = new System.Drawing.Size(70, 70);
@@ -485,6 +501,7 @@
             // Launcher04
             // 
             this.Launcher04.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher04.Location = new System.Drawing.Point(293, 12);
             this.Launcher04.Name = "Launcher04";
             this.Launcher04.Size = new System.Drawing.Size(70, 70);
@@ -495,6 +512,7 @@
             // Launcher03
             // 
             this.Launcher03.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher03.Location = new System.Drawing.Point(200, 12);
             this.Launcher03.Name = "Launcher03";
             this.Launcher03.Size = new System.Drawing.Size(70, 70);
@@ -505,6 +523,7 @@
             // Launcher02
             // 
             this.Launcher02.BackColor = System.Drawing.Color.LightGray;
+            this.Launcher02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Launcher02.Location = new System.Drawing.Point(107, 12);
             this.Launcher02.Name = "Launcher02";
             this.Launcher02.Size = new System.Drawing.Size(70, 70);
@@ -534,6 +553,10 @@
             this.SettingBtn.TabStop = false;
             this.SettingBtn.Click += new System.EventHandler(this.SettingBtn_Click);
             // 
+            // openFileDialog
+            // 
+            this.openFileDialog.FileName = "openFileDialog";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -546,6 +569,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.Text = "Verdugo";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Main_MouseMove);
             this.panel1.ResumeLayout(false);
@@ -632,6 +656,7 @@
         private System.Windows.Forms.PictureBox Launcher2Pic;
         private System.Windows.Forms.PictureBox Launcher1Pic;
         private System.Windows.Forms.PictureBox SettingBtn;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
     }
 }
 
