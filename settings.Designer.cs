@@ -36,7 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.FindPathBtn = new System.Windows.Forms.Button();
             this.ExecPath = new System.Windows.Forms.TextBox();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.BtnTerminate)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -137,7 +137,6 @@
             // FindPathBtn
             // 
             this.FindPathBtn.BackColor = System.Drawing.Color.DimGray;
-            this.FindPathBtn.Enabled = false;
             this.FindPathBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FindPathBtn.ForeColor = System.Drawing.Color.LightGray;
             this.FindPathBtn.Location = new System.Drawing.Point(145, 76);
@@ -147,6 +146,7 @@
             this.FindPathBtn.TabStop = false;
             this.FindPathBtn.Text = "Find";
             this.FindPathBtn.UseVisualStyleBackColor = false;
+            this.FindPathBtn.Click += new System.EventHandler(this.FindPathBtn_Click);
             // 
             // ExecPath
             // 
@@ -157,10 +157,6 @@
             this.ExecPath.Size = new System.Drawing.Size(201, 20);
             this.ExecPath.TabIndex = 4;
             this.ExecPath.TabStop = false;
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // settings
             // 
@@ -193,6 +189,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button FindPathBtn;
         private System.Windows.Forms.TextBox ExecPath;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
     }
 }

@@ -174,5 +174,14 @@ namespace Verdugo
 
 
         }
+
+        private void FindPathBtn_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog Open = new OpenFileDialog();
+            if (Open.ShowDialog() == DialogResult.OK)
+            {
+                ExecPath.Text = Open.FileName;
+            }
+        }
     }
 }
