@@ -365,19 +365,22 @@ namespace Verdugo
             //Error handler for incorrect file path in ececuter parameters
             catch (System.ComponentModel.Win32Exception) 
             {
-                MessageBox.Show("Error:Incorect path was attempted to execute, please correct path to file at " + LaunchID, "LaunchError");
+                Properties.Settings.Default.FeedbackCode = "IncorrectPath";
+                Feedback();
                 Console.WriteLine("Incorrect path at " + LaunchID);
             }
             //Error handler for launching with empty parameters
             catch (System.InvalidOperationException)
             {
+                Properties.Settings.Default.FeedbackCode = "LauncherNotSet";
+                Feedback();
                 Console.WriteLine("Attempt to launch without setting the exec @" + LaunchID);
-                MessageBox.Show("It appears you don't have anything set for that launcher config it in the settings!", "Tell me what to do!");
             }
             //Error handler for unknown error
             catch
             {
-                MessageBox.Show("You've somehow managed to break the software in ways we have not thought to be possible", "WOW!");
+                Properties.Settings.Default.FeedbackCode = "Error";
+                Feedback();
                 Console.WriteLine("Unknown Error at " + LaunchID);
             }
         }

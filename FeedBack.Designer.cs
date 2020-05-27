@@ -36,7 +36,7 @@
             // 
             // DescriptionText
             // 
-            this.DescriptionText.BackColor = System.Drawing.Color.DarkGray;
+            this.DescriptionText.BackColor = System.Drawing.Color.Gray;
             this.DescriptionText.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescriptionText.ForeColor = System.Drawing.Color.LightGray;
             this.DescriptionText.Location = new System.Drawing.Point(3, 3);
@@ -70,7 +70,7 @@
             this.OkayButton.UseVisualStyleBackColor = false;
             this.OkayButton.Click += new System.EventHandler(this.OkayButton_Click);
             // 
-            // ConfigSetMessage
+            // FeedBack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -78,7 +78,7 @@
             this.ClientSize = new System.Drawing.Size(223, 133);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "ConfigSetMessage";
+            this.Name = "FeedBack";
             this.Text = "ConfigSetMessage";
             this.Load += new System.EventHandler(this.ConfigSetMessage_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ConfigSetMessage_MouseDown);

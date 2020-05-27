@@ -18,7 +18,7 @@ namespace Verdugo
             InitializeComponent();
         }
 
-        //Border
+        //Border-Fix
         Point lastPoint;
         private void ConfigSetMessage_MouseDown(object sender, MouseEventArgs e){ lastPoint = new Point(e.X, e.Y);}
         private void ConfigSetMessage_MouseMove(object sender, MouseEventArgs e){if (e.Button == MouseButtons.Left) { this.Left += e.X - lastPoint.X; this.Top += e.Y - lastPoint.Y; }}
@@ -38,6 +38,14 @@ namespace Verdugo
                 case "EmptyExec":
                     DescriptionText.Text = "Please enter text into the Executable path field";
                     OkayButton.Text = "oh";
+                    break;
+                case "LauncherNotSet":
+                    DescriptionText.Text = "It appears you don't have anything set for that launcher config it in the settings";
+                    OkayButton.Text = "On it!";
+                    break;
+                case "IncorrectPath":
+                    DescriptionText.Text = "The path you set for the file is incorrect";
+                    OkayButton.Text = "oh okay";
                     break;
                 default:
                     DescriptionText.Text = "Unknown Feedback";
