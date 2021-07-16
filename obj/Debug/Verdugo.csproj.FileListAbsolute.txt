@@ -11,7 +11,6 @@ C:\Users\Jan\Documents\GitHub\C-\Verdugo\obj\Debug\Verdugo.pdb
 C:\Users\Jan\Documents\GitHub\verdugo\bin\Debug\Verdugo.exe.config
 C:\Users\Jan\Documents\GitHub\verdugo\bin\Debug\Verdugo.exe
 C:\Users\Jan\Documents\GitHub\verdugo\bin\Debug\Verdugo.pdb
-C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.csprojAssemblyReference.cache
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.Main.resources
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.Properties.Resources.resources
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.csproj.GenerateResource.cache
@@ -20,3 +19,4 @@ C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.exe
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.pdb
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.settings.resources
 C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.FeedBack.resources
+C:\Users\Jan\Documents\GitHub\verdugo\obj\Debug\Verdugo.csproj.AssemblyReference.cache
